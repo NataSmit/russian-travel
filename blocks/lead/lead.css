@@ -1,0 +1,9 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead__container {
+    margin: 56px auto 92px;
+}

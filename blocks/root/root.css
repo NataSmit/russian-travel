@@ -1,0 +1,17 @@
+.page {
+    min-width: ;
+    max-width: ;
+    background-color: #2A2C2F;
+    font-family: "Inter", "Arial", "sans-serif";
+    color:  #FFFFFF;
+    
+    
+}
+
+.header__container {
+    max-width: 1184px;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    border: orangered 2px solid;
+
+}
