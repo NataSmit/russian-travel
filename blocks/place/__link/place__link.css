@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
   color: white;
   font-family: inherit;
   font-size: 18px;
@@ -6,7 +6,7 @@
   line-height: 122%; 
 }
 
-.website__link:hover {
+.place__link:hover {
   opacity: 0.8;
 }
 
