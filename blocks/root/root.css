@@ -1,17 +1,33 @@
-.page {
-    min-width: ;
-    max-width: ;
-    background-color: #2A2C2F;
-    font-family: "Inter", "Arial", "sans-serif";
-    color:  #FFFFFF;
-    
-    
+.root {
+  background-color: #2A2C2F;
+  font-family: "Inter", "Arial", "sans-serif";
+  color:  #FFFFFF;    
 }
 
-.header__container {
-    max-width: 1184px;
-    margin: 0 auto;
-    background-color: #2A2C2F;
-    border: orangered 2px solid;
-
+.root__container {
+  min-width: 320px;
+  max-width: 1280px;
+  padding: 28px 48px 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
+
+@media screen and (max-width: 1279px) {
+  .root__container {
+    padding: 28px 0 24px;
+  }  
+}
+
+@media screen and (max-width: 1023px) {
+  .root__container {
+    padding: 28px 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .root__container {
+    padding: 16px 0 24px;
+  }  
+}
+
+

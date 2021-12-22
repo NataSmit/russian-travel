@@ -4,6 +4,21 @@
   font-weight: 400;
   max-width: 640px;
   text-align: center;
-  border: 1px solid red;
   margin: 32px 0 64px;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 22px;
+    line-height: 125%;
+    white-space: pre-line;
+  }  
+}
+
+@media screen and (max-width: 550px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 125%;
+    white-space: pre-line;
+  }  
 }

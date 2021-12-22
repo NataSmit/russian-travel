@@ -1,3 +1,11 @@
 .website__url-heading {
   text-decoration: none;
+  color: white;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 100%;
+  color: #AAAAAA;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
 }

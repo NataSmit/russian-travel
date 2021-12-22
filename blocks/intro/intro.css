@@ -2,11 +2,5 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  
-  border: 1px solid red;
 }
 
-.intro__container {
-  max-width: 984px;  
-  margin: 0 auto;
-}
