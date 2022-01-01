@@ -3,11 +3,18 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  
 }
 
 .header__link:first-child {
   margin-right: 18px;
 }
+
+.header__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
 
 @media screen and (max-width: 767px) {
   .header__link {
@@ -15,3 +22,4 @@
     line-height: 111%;
   }  
 }
+

@@ -1,8 +1,14 @@
 .root__cover {
   max-width: 1184px;
-  max-height: 740px;
   margin: 92px auto;
 }
+
+@media screen and (max-width: 1023px) {
+  .root__cover {
+    margin: 90px 0 88px;
+  }  
+}
+
   
 @media screen and (max-width: 767px) {
   .root__cover {

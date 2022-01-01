@@ -12,6 +12,7 @@
 @media screen and (max-width: 1023px) {
   .root__photo-grid {
     padding: 0 24px;
+    margin: 88px auto;
   }  
 }
 
